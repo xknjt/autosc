@@ -38,7 +38,7 @@ fun_bar() {
 res1() {
     wget https://raw.githubusercontent.com/Cloder07/script-new/main/Cdy/menu.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Cloder07/script-new/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -pBumiAyuVpn12BAV menu.zip
+    7z x -pCloder07 menu.zip
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin
