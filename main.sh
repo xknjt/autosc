@@ -202,6 +202,7 @@ function base_package() {
 clear
 print_install "Menginstall Packet Yang Dibutuhkan"
 apt install at -y
+pip install lolcat
 apt install zip pwgen openssl netcat socat cron bash-completion -y
 apt install figlet -y
 apt update -y
