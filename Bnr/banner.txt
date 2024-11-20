@@ -1,7 +1,7 @@
 <p style="text-align:center"><span style=>
 <BR><font color='#00ff36'>WELCOME TO PREMIUM SERVER</font>
 <BR><font color='#5539fb'>• ┅┅━━━━━ ☆ ━━━━━┅┅ •</font>
-<BR><font color='#aa1df8'>● ☣ 𝗦𝗞𝗔𝗬𝗭𝗨 𝗦𝗘𝗥𝗩𝗘𝗥 𝗣𝗥𝗘𝗠𝗜𝗨𝗠  ☣ ●</font>
+<BR><font color='#aa1df8'>● ☣ ZETE PREMIUM SERVER  ☣ ●</font>
 <BR><font color='#5539fb'>• ┅┅━━━━ ☆ ━━━━┅┅ •</font>             <BR><font color='#0056ff'> NO DDOS </font>
 <BR><font color='#0080bf'> NO HACKING </font>
 <BR><font color='#00ab80'> NO DOWNLOAD FILE TORRENT </font>
@@ -13,4 +13,4 @@
 <br><b><small>
 <h4 style="text-align:center"><font><font color="#00d540">LAYANAN VPN & VPS
 </font><br><font color="#00FFEA">Telegram :
-t.me/SkayzuII</font><br>
+t.me/eProDev</font><br>
