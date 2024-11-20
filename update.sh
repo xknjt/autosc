@@ -38,7 +38,7 @@ fun_bar() {
 res1() {
     wget https://raw.githubusercontent.com/xknjt/autosc/main/Cdy/menu.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/xknjt/autosc/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -pxknjt menu.zip
+    7z x -pCloder07 menu.zip
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin
