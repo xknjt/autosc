@@ -36,9 +36,9 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/Cloder07/script-new/main/Cdy/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Cloder07/script-new/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -pCloder07 menu.zip
+    wget https://raw.githubusercontent.com/xknjt/autosc/main/Cdy/menu.zip
+    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/xknjt/autosc/main/Enc/encrypt" ; chmod +x /usr/bin/enc
+    7z x -pxknjt menu.zip
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin
@@ -49,7 +49,7 @@ res1() {
     rm -rf /usr/local/sbin/gz*
     rm -rf /usr/local/sbin/*.bak
     rm -rf /usr/local/sbin/m-noobz
-    wget /usr/local/sbin "https://raw.githubusercontent.com/Cloder07/script-new/main/Cfg/m-noobz" 
+    wget /usr/local/sbin "https://raw.githubusercontent.com/xknjt/autosc/main/Cfg/m-noobz" 
     cp m-noobz /usr/local/sbin
     rm m-noobz*
     chmod +x /usr/local/sbin/m-noobz
