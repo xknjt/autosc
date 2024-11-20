@@ -19,8 +19,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="7523456640"
-KEY="7572139805:AAGIomVmYqxrSTxSYX_io8eKkdLU7u3Tems"
+CHATID="5804223572"
+KEY="7466006897:AAF3F3kF_xkaB-vfgDeduDOt90pmcSZ0HbQ"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
 export IP=$( curl -sS icanhazip.com )
@@ -28,7 +28,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[92;1m              𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗦𝗖𝗥𝗜𝗣𝗧 𝗦𝗞𝗔𝗬𝗭𝗨              \033[0m"
+echo -e "\033[92;1m              WELCOME TO ZETE VPN INSTALLER SCRIPT              \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -74,9 +74,9 @@ echo -e "\e[32mloading...\e[0m"
 clear
 clear
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/Cloder07/izin/main/ip | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/xknjt/izin/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/Cloder07/izin/main/ip | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/xknjt/izin/main/ip | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
@@ -95,7 +95,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/Cloder07/izin/main/ip | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/xknjt/izin/main/ip | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -103,7 +103,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/Cloder07/script-new/main/"
+REPO="https://raw.githubusercontent.com/xknjt/autosc/main/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -267,8 +267,8 @@ fi
 }
 clear
 restart_system() {
-USRSC=$(wget -qO- https://raw.githubusercontent.com/Cloder07/izin/main/ip | grep $ipsaya | awk '{print $2}')
-EXPSC=$(wget -qO- https://raw.githubusercontent.com/Cloder07/izin/main/ip | grep $ipsaya | awk '{print $3}')
+USRSC=$(wget -qO- https://raw.githubusercontent.com/xknjt/izin/main/ip | grep $ipsaya | awk '{print $2}')
+EXPSC=$(wget -qO- https://raw.githubusercontent.com/xknjt/izin/main/ip | grep $ipsaya | awk '{print $3}')
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
@@ -790,8 +790,8 @@ function menu(){
 clear
 print_install "Memasang Menu Packet"
 wget ${REPO}Cdy/menu.zip
-wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Cloder07/script-new/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-7z x -pCloder07 menu.zip
+wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/xknjt/autosc/main/Enc/encrypt" ; chmod +x /usr/bin/enc
+7z x -pxknjt menu.zip
 chmod +x menu/*
 enc menu/*
 mv menu/* /usr/local/sbin
@@ -799,7 +799,7 @@ rm -rf menu
 rm -rf menu.zip
 rm -rf /usr/local/sbin/*~
 rm -rf /usr/local/sbin/m-noobz
-wget https://raw.githubusercontent.com/Cloder07/script-new/main/Cfg/m-noobz 
+wget https://raw.githubusercontent.com/xknjt/autosc/main/Cfg/m-noobz 
 cp m-noobz /usr/local/sbin
 rm m-noobz*
 chmod +x /usr/local/sbin/m-noobz
